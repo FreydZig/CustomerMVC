@@ -1,0 +1,12 @@
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\bin\Debug\net6.0\CustomerLIbrary.deps.json
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\bin\Debug\net6.0\CustomerLIbrary.dll
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\bin\Debug\net6.0\ref\CustomerLIbrary.dll
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\bin\Debug\net6.0\CustomerLIbrary.pdb
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\obj\Debug\net6.0\CustomerLIbrary.csproj.AssemblyReference.cache
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\obj\Debug\net6.0\CustomerLIbrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\obj\Debug\net6.0\CustomerLIbrary.AssemblyInfoInputs.cache
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\obj\Debug\net6.0\CustomerLIbrary.AssemblyInfo.cs
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\obj\Debug\net6.0\CustomerLIbrary.csproj.CoreCompileInputs.cache
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\obj\Debug\net6.0\CustomerLIbrary.dll
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\obj\Debug\net6.0\ref\CustomerLIbrary.dll
+D:\Eboba\CustomerLibDL\src\CustomerLIbrary\obj\Debug\net6.0\CustomerLIbrary.pdb
