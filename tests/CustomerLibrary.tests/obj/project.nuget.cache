@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nTR4DImnSb7fwjCR5oR7P1jd+T1cNkIUVsfiHJr8emoUNBTLQuikvLzdgQEly8rTbSnPVEdx2wVchLlAX+igLg==",
+  "dgSpecHash": "+guB4GEr9TtPejox/X7KgY5PamkEp0x+bj2fymxO7HiiGtsrxzOBSaxMzeZxYFipWcGSPtG9v+spgziuJ5kMMQ==",
   "success": true,
-  "projectFilePath": "D:\\Eboba\\CustomerLibDL\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj",
+  "projectFilePath": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zigmu\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\zigmu\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

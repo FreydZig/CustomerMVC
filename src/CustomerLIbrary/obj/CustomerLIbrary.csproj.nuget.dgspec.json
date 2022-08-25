@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Eboba\\CustomerLibDL\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {}
+    "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {}
   },
   "projects": {
-    "D:\\Eboba\\CustomerLibDL\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {
+    "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eboba\\CustomerLibDL\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+        "projectUniqueName": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
         "projectName": "CustomerLIbrary",
-        "projectPath": "D:\\Eboba\\CustomerLibDL\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+        "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
         "packagesPath": "C:\\Users\\zigmu\\.nuget\\packages\\",
-        "outputPath": "D:\\Eboba\\CustomerLibDL\\src\\CustomerLIbrary\\obj\\",
+        "outputPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zigmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
