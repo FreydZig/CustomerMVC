@@ -1,6 +1,8 @@
-﻿namespace CustomerLIbrary.Interfaces
+﻿using System.Collections.Generic;
+
+namespace CustomerLIbrary.Interfaces
 {
-    interface IRepository<TEntity>
+    public interface IRepository<TEntity>
     {
         void Create(TEntity entity);
 
@@ -9,5 +11,7 @@
         void Update(TEntity entity);
 
         void Delete(string entityCode);
+        
+        List<TEntity> GetAll(string customerId);
     }
 }

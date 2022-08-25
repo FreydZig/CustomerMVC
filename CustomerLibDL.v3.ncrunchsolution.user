@@ -5,9 +5,9 @@
     <TestsWindowMenuOptions>
       <VerticalSplitMenuOption>false</VerticalSplitMenuOption>
       <ShowPassingTestsMenuOption>true</ShowPassingTestsMenuOption>
-      <ShowFailingTestsMenuOption>true</ShowFailingTestsMenuOption>
-      <ShowUnexecutedTestsMenuOption>true</ShowUnexecutedTestsMenuOption>
-      <ShowIgnoredTestsMenuOption>true</ShowIgnoredTestsMenuOption>
+      <ShowFailingTestsMenuOption>false</ShowFailingTestsMenuOption>
+      <ShowUnexecutedTestsMenuOption>false</ShowUnexecutedTestsMenuOption>
+      <ShowIgnoredTestsMenuOption>false</ShowIgnoredTestsMenuOption>
     </TestsWindowMenuOptions>
     <TestsWindowSplitterDistance>50%</TestsWindowSplitterDistance>
   </Settings>

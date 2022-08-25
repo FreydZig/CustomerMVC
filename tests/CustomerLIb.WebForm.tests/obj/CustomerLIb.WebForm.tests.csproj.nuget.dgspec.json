@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLIb.WebForm.tests\\CustomerLIb.WebForm.tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj",
+        "projectName": "CustomerLIb.WebForm",
+        "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {
+                "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+        "projectName": "CustomerLIbrary",
+        "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+        "packagesPath": "C:\\Users\\zigmu\\.nuget\\packages\\",
+        "outputPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zigmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLIb.WebForm.tests\\CustomerLIb.WebForm.tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLIb.WebForm.tests\\CustomerLIb.WebForm.tests.csproj",
+        "projectName": "CustomerLIb.WebForm.tests",
+        "projectPath": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLIb.WebForm.tests\\CustomerLIb.WebForm.tests.csproj",
+        "packagesPath": "C:\\Users\\zigmu\\.nuget\\packages\\",
+        "outputPath": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLIb.WebForm.tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zigmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj": {
+                "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
