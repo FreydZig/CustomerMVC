@@ -1,7 +1,7 @@
 ﻿<SolutionConfiguration>
   <Settings>
     <AutoEnable>True</AutoEnable>
-    <CurrentEngineMode>Run all tests automatically [Global]</CurrentEngineMode>
+    <CurrentEngineMode>Run pinned tests automatically, others manually [Global]</CurrentEngineMode>
     <TestsWindowMenuOptions>
       <VerticalSplitMenuOption>false</VerticalSplitMenuOption>
       <ShowPassingTestsMenuOption>true</ShowPassingTestsMenuOption>
@@ -9,6 +9,6 @@
       <ShowUnexecutedTestsMenuOption>false</ShowUnexecutedTestsMenuOption>
       <ShowIgnoredTestsMenuOption>false</ShowIgnoredTestsMenuOption>
     </TestsWindowMenuOptions>
-    <TestsWindowSplitterDistance>50%</TestsWindowSplitterDistance>
+    <TestsWindowSplitterDistance>80.8988723754883%</TestsWindowSplitterDistance>
   </Settings>
 </SolutionConfiguration>

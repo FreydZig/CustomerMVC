@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nLyFVs0duPT2ZcQfOoeB0JVs7iZC7GDII/ai1uYbOTcHxmDFlWb/jSsJrlSTueG3bJYkc369NllU32qJnXr5Vg==",
+  "dgSpecHash": "aG37cVaOaKnnJ/g/Ku5FLj08+/+CfJwr7iYAGSVQVec+6pVOLPLvwUADyRbMAWXAOi1zvtJ6ccBJTI06+UdiVQ==",
   "success": true,
-  "projectFilePath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+  "projectFilePath": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zigmu\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\zigmu\\.nuget\\packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",

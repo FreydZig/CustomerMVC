@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CCNvO+qHvJNK/P7j51bY2DD7d/6evd74BSSIR0th0jRuO6fJjgFKy+tuso4idhQZGO0M55zSrusTpmcdCWp6xA==",
+  "dgSpecHash": "2l0sYRctc+urRur9QTIm/pZQN7/DJ6YHhJq1i2QC5MlDwdriyxtfLtofenQZHbKJpYr0nEYwkADu2FtAFVOEwQ==",
   "success": true,
-  "projectFilePath": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj",
+  "projectFilePath": "D:\\Eboba\\CustomerMVC\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zigmu\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\zigmu\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",

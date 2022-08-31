@@ -728,11 +728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLIb.WebForm.tests\\CustomerLIb.WebForm.tests.csproj",
+      "projectUniqueName": "D:\\Eboba\\CustomerMVC\\tests\\CustomerLIb.WebForm.tests\\CustomerLIb.WebForm.tests.csproj",
       "projectName": "CustomerLIb.WebForm.tests",
-      "projectPath": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLIb.WebForm.tests\\CustomerLIb.WebForm.tests.csproj",
+      "projectPath": "D:\\Eboba\\CustomerMVC\\tests\\CustomerLIb.WebForm.tests\\CustomerLIb.WebForm.tests.csproj",
       "packagesPath": "C:\\Users\\zigmu\\.nuget\\packages\\",
-      "outputPath": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLIb.WebForm.tests\\obj\\",
+      "outputPath": "D:\\Eboba\\CustomerMVC\\tests\\CustomerLIb.WebForm.tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zigmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -749,8 +749,8 @@
         "net472": {
           "targetAlias": "net472",
           "projectReferences": {
-            "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj": {
-              "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj"
+            "D:\\Eboba\\CustomerMVC\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj": {
+              "projectPath": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIb.WebForm\\CustomerLIb.WebForm.csproj"
             }
           }
         }

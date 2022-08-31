@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj": {}
+    "D:\\Eboba\\CustomerMVC\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj": {}
   },
   "projects": {
-    "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {
+    "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+        "projectUniqueName": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
         "projectName": "CustomerLIbrary",
-        "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+        "projectPath": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
         "packagesPath": "C:\\Users\\zigmu\\.nuget\\packages\\",
-        "outputPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\obj\\",
+        "outputPath": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zigmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,14 +53,14 @@
         }
       }
     },
-    "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj": {
+    "D:\\Eboba\\CustomerMVC\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj",
+        "projectUniqueName": "D:\\Eboba\\CustomerMVC\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj",
         "projectName": "CustomerLibrary.tests",
-        "projectPath": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj",
+        "projectPath": "D:\\Eboba\\CustomerMVC\\tests\\CustomerLibrary.tests\\CustomerLibrary.tests.csproj",
         "packagesPath": "C:\\Users\\zigmu\\.nuget\\packages\\",
-        "outputPath": "D:\\Eboba\\Customer_ADO.NET\\tests\\CustomerLibrary.tests\\obj\\",
+        "outputPath": "D:\\Eboba\\CustomerMVC\\tests\\CustomerLibrary.tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zigmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,8 +77,8 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {
-                "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj"
+              "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\CustomerLIbrary.csproj": {
+                "projectPath": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\CustomerLIbrary.csproj"
               }
             }
           }

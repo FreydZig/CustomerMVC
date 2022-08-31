@@ -290,11 +290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+      "projectUniqueName": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
       "projectName": "CustomerLIbrary",
-      "projectPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
+      "projectPath": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\CustomerLIbrary.csproj",
       "packagesPath": "C:\\Users\\zigmu\\.nuget\\packages\\",
-      "outputPath": "D:\\Eboba\\Customer_ADO.NET\\src\\CustomerLIbrary\\obj\\",
+      "outputPath": "D:\\Eboba\\CustomerMVC\\src\\CustomerLIbrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zigmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
