@@ -56,11 +56,10 @@
         @Html.RouteLink("Address", new { controller = "Address", action = "Index", id = item.CustomerId })
     </td>
     <td>
-        @Html.ActionLink("Notes", "GetNotes", new { id = item.CustomerId })
+        @Html.RouteLink("Notes", new { controller = "Notes", action = "Index", id = item.CustomerId })
     </td>
     <td>
         @Html.ActionLink("Edit", "Edit", new { id = item.CustomerId }) |
-        @Html.ActionLink("Details", "Details", new { id = item.CustomerId }) |
         @Html.ActionLink("Delete", "Delete", new { id = item.CustomerId })
     </td>
 </tr>

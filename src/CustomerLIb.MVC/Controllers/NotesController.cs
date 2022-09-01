@@ -5,49 +5,50 @@ using System.Web.Mvc;
 
 namespace CustomerLIb.MVC.Controllers
 {
-    public class AddressController : Controller
+    public class NotesController : Controller
     {
-        private readonly IRepository<Address> _addressRepository;
+
+        private readonly IRepository<Notes> _notesRepository;
 
         private static int _customerId { get; set; }
 
-        public AddressController()
+        public NotesController()
         {
-            _addressRepository = new AddresRepository();
+            _notesRepository = new NotesRepository();
         }
 
-        // GET: Address/5
+        // GET: Notes
         public ActionResult Index(int id)
         {
             _customerId = id;
-            var address = _addressRepository.GetAll(id.ToString());
-            if (address.Count > 0)
-            return View(address);
+            var notes = _notesRepository.GetAll(id.ToString());
+            if(notes.Count > 0)
+            return View(notes);
             else
                 return RedirectToAction("Create", new { id = _customerId });
         }
 
-        // GET: Address/Details/5
+        // GET: Notes/Details/5
         //public ActionResult Details(int id)
         //{
         //    return View();
         //}
 
-        // GET: Address/Create
+        // GET: Notes/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Address/Create
+        // POST: Notes/Create
         [HttpPost]
-        public ActionResult Create(Address address)
+        public ActionResult Create(Notes notes)
         {
             try
             {
-                _addressRepository.Create(address);
-                //TODO:FIX
-                return RedirectToAction("Index",new { id = _customerId });
+                _notesRepository.Create(notes);
+
+                return RedirectToAction("Index", new { id = _customerId });
             }
             catch
             {
@@ -55,20 +56,20 @@ namespace CustomerLIb.MVC.Controllers
             }
         }
 
-        // GET: Address/Edit/5
+        // GET: Notes/Edit/5
         public ActionResult Edit(int id)
         {
-            var addres = _addressRepository.Read(id.ToString());
-            return View(addres);
+            var note = _notesRepository.Read(id.ToString());
+            return View(note);
         }
 
-        // POST: Address/Edit/5
+        // POST: Notes/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, Address address)
+        public ActionResult Edit(int id, Notes notes)
         {
             try
             {
-                _addressRepository.Update(address);
+                _notesRepository.Update(notes);
 
                 return RedirectToAction("Index", new { id = _customerId });
             }
@@ -78,26 +79,26 @@ namespace CustomerLIb.MVC.Controllers
             }
         }
 
-        // GET: Address/Delete/5
+        // GET: Notes/Delete/5
         public ActionResult Delete(int id)
         {
-            var addres = _addressRepository.Read(id.ToString());
-            return View(addres);
+            var note = _notesRepository.Read(id.ToString());
+            return View(note);
         }
 
-        // POST: Address/Delete/5
+        // POST: Notes/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, Address address)
+        public ActionResult Delete(int id, FormCollection collection)
         {
             try
             {
-                _addressRepository.Delete(id.ToString());
+                _notesRepository.Delete(id.ToString());
 
                 return RedirectToAction("Index", new { id = _customerId });
             }
             catch
             {
-                return View(address);
+                return View();
             }
         }
     }

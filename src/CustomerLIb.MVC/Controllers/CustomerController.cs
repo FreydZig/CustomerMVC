@@ -101,7 +101,7 @@ namespace CustomerLIb.MVC.Controllers
             }
             catch
             {
-                return View();
+                return View(customer);
             }
         }
     }

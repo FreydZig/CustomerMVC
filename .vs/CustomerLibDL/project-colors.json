@@ -15,7 +15,22 @@
       "ProjectGuid": "dac38d6c-ee15-49de-a84e-85aab5a469e4",
       "DisplayName": "CustomerLibrary.tests",
       "ColorIndex": 1
+    },
+    "404310da-f54e-41c3-9835-9eb4abcd2197": {
+      "ProjectGuid": "404310da-f54e-41c3-9835-9eb4abcd2197",
+      "DisplayName": "CustomerLIb.WebForm",
+      "ColorIndex": 2
+    },
+    "eab088d1-0a33-4a27-a4d1-0c1b766f57d8": {
+      "ProjectGuid": "eab088d1-0a33-4a27-a4d1-0c1b766f57d8",
+      "DisplayName": "CustomerLIb.MVC",
+      "ColorIndex": 3
+    },
+    "82410c91-d324-442e-86b9-4563bf9cc9b6": {
+      "ProjectGuid": "82410c91-d324-442e-86b9-4563bf9cc9b6",
+      "DisplayName": "CustomerLIb.MVC.tests",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }
