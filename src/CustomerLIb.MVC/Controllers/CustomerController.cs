@@ -1,6 +1,7 @@
 ﻿using CustomerLIbrary.Entities;
 using CustomerLIbrary.Interfaces;
 using CustomerLIbrary.Repositories;
+using System.Text.RegularExpressions;
 using System.Web.Mvc;
 
 namespace CustomerLIb.MVC.Controllers
@@ -51,6 +52,23 @@ namespace CustomerLIb.MVC.Controllers
             }
             catch
             {
+                if (!string.IsNullOrWhiteSpace(customer.FirstName))
+                    if (customer.FirstName.Length > 50)
+                        ModelState.AddModelError("", "First name must be less 50!");
+                if (string.IsNullOrWhiteSpace(customer.LastName))
+                    ModelState.AddModelError("", "Last name is empty!");
+                else
+                    if (customer.LastName.Length > 50)
+                    ModelState.AddModelError("", "Last name should be less 50!");
+                if (!string.IsNullOrWhiteSpace(customer.PhoneNumber))
+                    if (!Regex.IsMatch(customer.PhoneNumber, @"\D[0-9]{10}"))
+                        ModelState.AddModelError("", "Phone number should looks like +12345678901!");
+                if (!string.IsNullOrWhiteSpace(customer.Email))
+                    if (!Regex.IsMatch(customer.Email, @"^(?("")(""[^""]+?""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
+                @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9]{2,17}))$"))
+                        ModelState.AddModelError("", "Email should looks like name@mail.net");
+
+
                 return View();
             }
         }
@@ -74,6 +92,21 @@ namespace CustomerLIb.MVC.Controllers
             }
             catch
             {
+                if (!string.IsNullOrWhiteSpace(customer.FirstName))
+                    if (customer.FirstName.Length > 50)
+                        ModelState.AddModelError("", "First name must be less 50!");
+                if (string.IsNullOrWhiteSpace(customer.LastName))
+                    ModelState.AddModelError("", "Last name is empty!");
+                else
+                    if (customer.LastName.Length > 50)
+                    ModelState.AddModelError("", "Last name should be less 50!");
+                if (!string.IsNullOrWhiteSpace(customer.PhoneNumber))
+                    if (!Regex.IsMatch(customer.PhoneNumber, @"\D[0-9]{10}"))
+                        ModelState.AddModelError("", "Phone number should looks like +12345678901!");
+                if (!string.IsNullOrWhiteSpace(customer.Email))
+                    if (!Regex.IsMatch(customer.Email, @"^(?("")(""[^""]+?""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
+                @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9]{2,17}))$"))
+                        ModelState.AddModelError("", "Email should looks like name@mail.net");
                 return View();
             }
         }

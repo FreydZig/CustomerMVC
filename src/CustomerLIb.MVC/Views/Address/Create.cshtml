@@ -6,11 +6,13 @@
 
 <h2>Create</h2>
 
+<div class="validation" asp-validation-summary="ModelOnly"></div>
 
-@using (Html.BeginForm()) 
+
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>Address</h4>
         <hr />
@@ -88,7 +90,7 @@
 }
 
 <div>
-    @Html.ActionLink("Back to List", "Index" , new { id = Html.ViewContext.RouteData.Values["id"] })
+    @Html.ActionLink("Back to List", "Index", new { id = Html.ViewContext.RouteData.Values["id"] })
 </div>
 
 @section Scripts {
